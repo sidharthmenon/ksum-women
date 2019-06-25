@@ -1,0 +1,139 @@
+#ksum-footer {
+  padding-top:110px;
+  padding-bottom:110px;
+  background-color:#222229;
+  color:#dbdbdb;
+}
+
+#ksum-footer .stylish-input-group {
+  padding-top:15px;
+}
+
+#ksum-footer .stylish-input-group .form-control {
+  background:#18181c;
+  border:none;
+  box-shadow:none;
+  color:#dbdbdb;
+  -webkit-border-radius:30px 0 0 30px;
+  -moz-border-radius:30px 0 0 30px;
+  -ms-border-radius:30px 0 0 30px;
+  -o-border-radius:30px 0 0 30px;
+  border-radius:30px 0 0 30px;
+  height:50px;
+  padding-left:18px;
+}
+
+#ksum-footer .stylish-input-group .form-control::-moz-placeholder {
+  color:#dbdbdb;
+}
+
+#ksum-footer .stylish-input-group .form-control::-webkit-input-placeholder {
+  color:#dbdbdb;
+}
+
+#ksum-footer .stylish-input-group .input-group-addon {
+  background:#18181c;
+  border:none;
+  -webkit-border-radius:0 30px 30px 0;
+  -moz-border-radius:0 30px 30px 0;
+  -ms-border-radius:0 30px 30px 0;
+  -o-border-radius:0 30px 30px 0;
+  border-radius:0 30px 30px 0;
+  padding:0;
+}
+
+#ksum-footer .stylish-input-group .input-group-addon button {
+  background:#027abb;
+  -webkit-border-radius:30px;
+  -moz-border-radius:30px;
+  -ms-border-radius:30px;
+  -o-border-radius:30px;
+  border-radius:30px;
+  border:none;
+  box-shadow:none;
+  /*margin-right:6px;*/
+  padding:12px 24px;
+  -webkit-transition:all 0.3s ease-out;
+  -moz-transition:all 0.3s ease-out;
+  -ms-transition:all 0.3s ease-out;
+  -o-transition:all 0.3s ease-out;
+  transition:all 0.3s ease-out;
+}
+
+#ksum-footer .stylish-input-group .input-group-addon button i {
+  color:#ffffff;
+}
+
+#ksum-footer .stylish-input-group .input-group-addon button:hover {
+  background:#036ea8;
+}
+.footer-address p {
+    margin: 0
+}
+
+.footer-phone i,.footer-social a {
+    margin-right: 20px
+}
+
+.footer-phone i {
+    color: #027abb
+}
+
+.footer-phone {
+    margin-top: 20px
+}
+
+.footer-social a:hover i {
+    color: #fff
+}
+
+.footer-social a i {
+    color: #027abb
+}
+
+.footer-social a:last-child {
+    margin-right: 0
+}
+
+.useful-link li {
+    display: inline-block;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    width: 48%
+}
+
+.useful-link {
+    padding: 0
+}
+
+.useful-link a {
+    color: #dbdbdb
+}
+
+.useful-link a:visited{
+  color: #dcdcdc !important;
+}
+
+.useful-link a:hover {
+    color: #027abb;
+    text-decoration: none
+}
+
+#ksum-footer h3{
+  font-family: "Roboto";
+  color:#fff;
+}
+
+#ksum-footer h2{
+  color:#fff;
+}
+
+#ksum-copy {
+  background-color:#1c1c21;
+}
+
+#ksum-copy .copyright-text {
+  color:#fff;
+  padding:14px;
+  margin:0px;
+}
