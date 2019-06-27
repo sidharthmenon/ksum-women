@@ -791,6 +791,7 @@ a:hover, a:active {
 .next-events-section-header {
     margin-top: 36px;
     text-align: center;
+    padding-left: 40px;
 }
 
 .next-events-section-header .entry-title,
@@ -800,7 +801,7 @@ a:hover, a:active {
     font-weight: bold;
     line-height: 1;
     color: #232127;
-    background: url("images/next-events-header-bg.png") no-repeat center;
+    /* background: url("images/next-events-header-bg.png") no-repeat center; */
     text-align: center;
 }
 

@@ -53,6 +53,9 @@
         slidesPerView: 6,
         spaceBetween: 30,
         loop: true,
+        autoplay: {
+            delay: 1500,
+        },
         breakpoints: {
             // when window width is <= 320px
             576: {
