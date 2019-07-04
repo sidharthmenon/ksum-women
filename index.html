@@ -30,7 +30,7 @@
         <div class="container-fluid">
 						<div class="row justify-content-end">
 							<div class="col-7">
-								<nav class="site-navigation">
+								<nav class="site-navigation fixed-top">
 									<div class="hamburger-menu d-lg-none">
 											<span></span>
 											<span></span>
@@ -39,7 +39,7 @@
 									</div><!-- .hamburger-menu -->
 
 									<ul>
-											<li><a href="#">Home</a></li>
+											<li><a data-scroll href="#home">Home</a></li>
 											<li><a data-scroll href="#about">About</a></li>
 											<li><a data-scroll href="#speakers">Speakers</a></li>
 											<li><a data-scroll href="#agenda">Agenda</a></li>
@@ -51,7 +51,7 @@
         </div><!-- .container-fluid -->
     </div><!-- .header-bar -->
 
-    <div class="swiper-container hero-slider">
+    <div class="swiper-container hero-slider" id="home">
         <div class="swiper-wrapper">
             <div class="swiper-slide" data-date="2019/08/01" style="background: url('images/slt/bg1.jpg') no-repeat; background-size: cover; min-height: 100vh;">
                 <div class="hero-content">
@@ -94,7 +94,9 @@
 
                                     <!-- <h2 class="entry-title">1 We have the best events. <br>Get your tiket now!</h2> --
                                 </div> -->
-
+																<div class="marquee">
+																	Grab earlybird discounts... Register Now
+																</div>
                                 <div class="entry-footer">
                                     <a class="btn gradient-bg" href="#">Register Now</a>
                                 </div><!-- .entry-footer" -->
@@ -128,9 +130,9 @@
                 </figure>
             </div> -->
 
-            <div class="col-12">
+            <div class="col-12 text-center">
                 <header class="entry-header">
-                    <h2 class="entry-title">Women Startup Summit</h2>
+                    <h2 class="entry-title text-left">Women Startup Summit</h2>
                 </header>
 
                 <div class="entry-content">
@@ -152,10 +154,10 @@
 											</p>
 										</div>
 
-                </div>
+								</div>
+								<button type="button" id="show_more_button" class="btn btn-sm btn-outline-primary">+</button>
 
-                <footer class="entry-footer">
-                    <a href="#" class="btn gradient-bg" id="show_more_button">Read More</a>
+                <footer class="entry-footer text-left">
                     <a href="#" class="btn dark">Register Now</a>
                 </footer>
             </div>
@@ -171,148 +173,23 @@
                     <h2 class="entry-title">Speakers</h2>
                 </header>
                 <div class="swiper-container homepage-regional-events-slider">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <figure>
-                                <img src="images/slt/event-slider-1.png" alt="">
-
-                                <a class="event-overlay-link flex justify-content-center align-items-center" href="#">+</a>
-                            </figure><!-- .hero-image -->
-
-                            <div class="entry-header">
-                                <h2 class="entry-title">Ms. Anjali Bansal</h2>
-                            </div><!--- .entry-header -->
-
-                            <div class="entry-footer">
-																<div class="posted-date">Founder</div>
-
-                                <div class="posted-date">Avaana Capital</div>
-                            </div><!-- .entry-footer" -->
-                        </div><!-- .swiper-slide -->
-
-                        <div class="swiper-slide">
-                            <figure>
-                                <img src="images/slt/event-slider-2.png" alt="">
-
-                                <a class="event-overlay-link flex justify-content-center align-items-center" href="#">+</a>
-                            </figure><!-- .hero-image -->
-
-                            <div class="entry-header">
-                                <h2 class="entry-title">Ms. Deepthi Dut</h2>
-                            </div><!--- .entry-header -->
-
-                            <div class="entry-footer">
-																<div class="posted-date">Head of Strategic Initiatives- Public Sector, Amazon</div>
-                                
-                            </div><!-- .entry-footer" -->
-												</div><!-- .swiper-slide -->
+                    <div class="swiper-wrapper" id="slidervue">
 												
-												<div class="swiper-slide">
-                            <figure>
-                                <img src="images/slt/event-slider-3.png" alt="">
+											<div class="swiper-slide" v-for="speaker in speakers">
+												<figure>
+														<img :src="'images/slt/'+speaker.image" alt="">
+												</figure><!-- .hero-image -->
 
-                                <a class="event-overlay-link flex justify-content-center align-items-center" href="#">+</a>
-                            </figure><!-- .hero-image -->
+												<div class="entry-header">
+														<h2 class="entry-title">{{speaker.name}}</h2>
+												</div><!--- .entry-header -->
 
-                            <div class="entry-header">
-                                <h2 class="entry-title">Padmaja Ruparel</h2>
-                            </div><!--- .entry-header -->
+												<div class="entry-footer">
+														<div class="posted-date">{{speaker.desi}}</div>
 
-                            <div class="entry-footer">
-																<div class="posted-date">Co-Founder</div>
-
-                                <div class="posted-date">Indian Angel Network</div>
-                            </div><!-- .entry-footer" -->
-												</div><!-- .swiper-slide -->
-												
-												<div class="swiper-slide">
-													<figure>
-															<img src="images/slt/event-slider-4.png" alt="">
-
-															<a class="event-overlay-link flex justify-content-center align-items-center" href="#">+</a>
-													</figure><!-- .hero-image -->
-
-													<div class="entry-header">
-															<h2 class="entry-title">Ms. Shanti</h2>
-													</div><!--- .entry-header -->
-
-													<div class="entry-footer">
-															<div class="posted-date">Founder</div>
-
-															<div class="posted-date">Lets Venture</div>
-													</div><!-- .entry-footer" -->
-												</div><!-- .swiper-slide -->
-
-												<div class="swiper-slide">
-													<figure>
-															<img src="images/slt/event-slider-5.png" alt="">
-
-															<a class="event-overlay-link flex justify-content-center align-items-center" href="#">+</a>
-													</figure><!-- .hero-image -->
-
-													<div class="entry-header">
-															<h2 class="entry-title">Dr. Mrudul Eappen</h2>
-													</div><!--- .entry-header -->
-
-													<div class="entry-footer">
-															<div class="posted-date">Member Planning Board</div>
-													</div><!-- .entry-footer" -->
-												</div><!-- .swiper-slide -->
-
-
-												<div class="swiper-slide">
-													<figure>
-															<img src="images/slt/event-slider-6.png" alt="">
-
-															<a class="event-overlay-link flex justify-content-center align-items-center" href="#">+</a>
-													</figure><!-- .hero-image -->
-
-													<div class="entry-header">
-															<h2 class="entry-title">Ms. Sunitha Sanghi</h2>
-													</div><!--- .entry-header -->
-
-													<div class="entry-footer">
-															<div class="posted-date">Senior Advisor</div>
-															<div class="posted-date">Ministry of Skill Development and Entrepreneurship</div>
-													</div><!-- .entry-footer" -->
-												</div><!-- .swiper-slide -->
-
-												<div class="swiper-slide">
-													<figure>
-															<img src="images/slt/event-slider-7.png" alt="">
-
-															<a class="event-overlay-link flex justify-content-center align-items-center" href="#">+</a>
-													</figure><!-- .hero-image -->
-
-													<div class="entry-header">
-															<h2 class="entry-title">Ms. Deena Jacob</h2>
-													</div><!--- .entry-header -->
-
-													<div class="entry-footer">
-															<div class="posted-date">CFO</div>
-															<div class="posted-date">Open Bank</div>
-													</div><!-- .entry-footer" -->
-												</div><!-- .swiper-slide -->
-
-												<div class="swiper-slide">
-													<figure>
-															<img src="images/slt/event-slider-8.png" alt="">
-
-															<a class="event-overlay-link flex justify-content-center align-items-center" href="#">+</a>
-													</figure><!-- .hero-image -->
-
-													<div class="entry-header">
-															<h2 class="entry-title">Ms. Anupam Nidhi</h2>
-													</div><!--- .entry-header -->
-
-													<div class="entry-footer">
-															<div class="posted-date">Head- Corporate Citizenship and Sustainability, Siemens</div>
-												
-													</div><!-- .entry-footer" -->
-												</div><!-- .swiper-slide -->
-
-												
-
+														<div class="posted-date">{{speaker.company}}</div>
+												</div><!-- .entry-footer" -->
+											</div><!-- .swiper-slide -->
                         
                     </div><!-- .swiper-wrapper -->
 
@@ -583,13 +460,22 @@
 							</ul>
 			</div>
 			<div class="col-sm-4 mt-4">
-							<h2>Newsletter<br></h2>
-							<p>Want news and insights? Join our mailing list.<br></p>
-							<form action="https://startupmission.kerala.gov.in" method="post" target="_blank">
-											<div class="input-group stylish-input-group"><input class="form-control" type="text">
-															<div class="input-group-append input-group-addon"><button class="btn btn-primary newsletter-btn" type="submit"><i class="fa fa-send"></i></button></div>
-											</div>
-							</form>
+							<h2>CONTACT<br></h2>
+							<p>
+								<b>Salini V R</b><br>
+								Assitant Manager, Global Linkages,<br>
+								Kerala Startup Mission<br>
+								Contact Number: +91 9633-24-5595<br>
+								Contact id : salini@startupmission.in
+							</p>
+							
+			</div>
+			<div class="col-12">
+				<div class="pt-5">
+					<h2 class="text-center">Venue Location<br></h2>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15714.112156332161!2d76.3547144!3d10.0557486!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa45cc77b2251f08e!2sIntegrated+Startup+Complex!5e0!3m2!1sen!2sin!4v1557121899904!5m2!1sen!2sin" 
+					width="100%" height="350px" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -617,7 +503,12 @@
 <script type='text/javascript' src='js/circle-progress.min.js'></script>
 <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
 <script src="../assets/js/smooth-scroll.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="js/vue_code.js"></script>
+
 <script type='text/javascript' src='js/custom.js'></script>
+
+
 <script>
 	
 </script>
