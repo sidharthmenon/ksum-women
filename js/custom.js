@@ -231,4 +231,10 @@
         });
     }
 
+    $("#show_more_button").on('click', function(e){
+        e.preventDefault();
+        $('#show_more').toggle();
+        $(this).hide();
+    })
+
 })(jQuery);

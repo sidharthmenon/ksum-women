@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="timeline.css">
     <link rel="stylesheet" href="ksum_footer.css">
     <link rel="stylesheet" href="style.css">
-    <script src="js/custom.js"></script>
+    
 </head>
 <body>
 <header class="site-header">
@@ -40,10 +40,10 @@
 
 									<ul>
 											<li><a href="#">Home</a></li>
-											<li><a href="#">About us</a></li>
-											<li><a href="#">Events</a></li>
-											<li><a href="#">News</a></li>
-											<li><a href="#">Contact</a></li>
+											<li><a data-scroll href="#about">About</a></li>
+											<li><a data-scroll href="#speakers">Speakers</a></li>
+											<li><a data-scroll href="#agenda">Agenda</a></li>
+											<li><a data-scroll href="#ksum-footer">Contact</a></li>
 									</ul>
 								</nav><!-- .site-navigation -->
 							</div>
@@ -58,7 +58,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col flex flex-column justify-content-center">
-                                <h2>Women Startup Summit</h2>
+																<div class="wss-logo"></div>
                                 <div class="details flex flex-row justify-content-between">
                                     <div>
 																				<h5>When</h5>
@@ -119,7 +119,7 @@
     </div><!-- .swiper-container -->
 </header><!-- .site-header -->
 
-<div class="homepage-info-section">
+<div class="homepage-info-section" id="about">
     <div class="container">
         <div class="row">
             <!-- <div class="col-12 col-md-4 col-lg-5">
@@ -135,23 +135,27 @@
 
                 <div class="entry-content">
 										<p style="text-align: justify">
-												Women Startup Summit is an initiative of Kerala Startup mission to encourage aspiring women professionals to take up the entrepreneurial journey and develop an inclusive entrepreneurship ecosystem in Kerala.  The summit will bring together successful women leaders, Startup founders, policy makers and aspiring women entrepreneurs at a common platform to share their experiences, aspirations and celebrate success stories.
+											Women Startup Summit is an initiative of Kerala Startup mission to encourage aspiring women professionals to take up the entrepreneurial journey and develop an inclusive entrepreneurship ecosystem in Kerala.  The summit will bring together successful women leaders, Startup founders, policy makers and aspiring women entrepreneurs at a common platform to share their experiences, aspirations and celebrate success stories.  
 										</p>
 										<p style="text-align: justify">
+											Women Startup Summit will witness a community of inspiring and innovative visionaries whose ambitious actions are changing the world with unprecedented scale. Featuring dynamic panel discussions, Fireside chats and keynote conversations, Women Startup Summit will convene a diverse range of female luminaries from Technology, business, media and entertainment
+										</p>
+										<div class="collapse" id="show_more">
+											<p style="text-align: justify;" >
 												Innovation and technology provide unprecedented opportunities, yet indicate a growing digital divide and women are under-represented in the field of science and Technology. It is vital that women’s ideas and experiences equally influence the design and implementation of the innovations that shape our future societies
-										</p>
-										<p style="text-align: justify">
+											</p>
+											<p style="text-align: justify; " >
 												The summit has designed in such a way that aspiring women entrepreneurs and startup founders will gain amazingly new insights through knowledge-based sessions, inspiring stories and one-on one interaction.
-										</p>
-										<p style="text-align: justify">
-												The summit will revolve around the theme “ Developing an Inclusive Entrepreneurship Ecosystem”
-										</p>
-										<p style="text-align: justify">KSUM will organize the summit on 1st August 2019 with the support of Indian Women Network, a network of women promoted by Confederation of Indian Industries (CII).</p>
+											</p>
+											<p style="text-align: justify;" >
+												The summit will revolve around the theme “Developing an Inclusive Entrepreneurship Ecosystem” 
+											</p>
+										</div>
 
                 </div>
 
                 <footer class="entry-footer">
-                    <a href="#" class="btn gradient-bg">Read More</a>
+                    <a href="#" class="btn gradient-bg" id="show_more_button">Read More</a>
                     <a href="#" class="btn dark">Register Now</a>
                 </footer>
             </div>
@@ -159,7 +163,7 @@
     </div>
 </div>
 
-<div class="homepage-featured-events">
+<div class="homepage-featured-events" id="speakers">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -326,11 +330,11 @@
     </div>
 </div>
 
-<div class="homepage-next-events">
+<div class="homepage-next-events" id="agenda">
     <div class="container">
         <div class="row justify-content-start">
             <div class="next-events-section-header">
-                <h2 class="entry-title">Timeline</h2>
+                <h2 class="entry-title">Agenda</h2>
                 <!-- <p>Vestibulum eget lacus at mauris sagittis varius. Etiam ut venenatis dui. Nullam tellus risus, pellentesque at facilisis et, scelerisque sit amet metus. Duis vel semper turpis, ac tempus libero. Maecenas id ultrices risus. Aenean nec ornare ipsum, lacinia.</p> -->
             </div>
 				</div>
@@ -341,7 +345,7 @@
 							<ul>
 								<li>
 									<div class="bullet pink"></div>
-									<div class="time">09:00 AM – 10:00 AM</div>
+									<div class="time">08:15 to 09:30</div>
 									<div class="desc">
 										<h3>Registration</h3>
 										<!-- <h4>Mobile App</h4> -->
@@ -349,44 +353,51 @@
 								</li>
 								<li>
 									<div class="bullet orange"></div>
-									<div class="time">10:00 AM – 10:15 AM</div>
+									<div class="time">09.31 to 10.00</div>
 									<div class="desc">
-										<h3>Inauguration</h3>
+										<h3>Inaugurual Ceremony</h3>
 									</div>
 								</li>
 								<li>
 									<div class="bullet pink"></div>
-									<div class="time">10:16 AM – 10:45 AM</div>
+									<div class="time">10.01 to 10.30</div>
 									<div class="desc">
-										<h3>She Loves Tech India 2019</h3>
+										<h3>FIRESIDE CHAT - Women to Inspire</h3>
 									</div>
 								</li>
 								<li>
 									<div class="bullet orange"></div>
-									<div class="time">10:46 AM - 11:15 AM</div>
+									<div class="time">10:31 to 11:15</div>
 									<div class="desc">
-										<h3>Nurturing State Entrepreneurship for Women - Role of Government</h3>
+										<h3>PANEL DISCUSSION : Women in Business</h3>
 									</div>
 								</li>
 								<li>
 									<div class="bullet pink"></div>
-									<div class="time">11:16 AM - 11:30 AM</div>
+									<div class="time">11:16 to 11.30</div>
 									<div class="desc">
-										<h3>TEA BREAK</h3>
+										<h3>Tea Break</h3>
 									</div>
 								</li>
 								<li>
 									<div class="bullet orange"></div>
-									<div class="time">11:31 AM – 12:15 PM</div>
+									<div class="time">11.31 to 12.15</div>
 									<div class="desc">
-										<h3>Pitching Phase 1 Five startup</h3>
+										<h3>PANEL DISCUSSION : Women On-board</h3>
 									</div>
 								</li>
 								<li>
 									<div class="bullet pink"></div>
-									<div class="time">12:16 PM – 01:00 PM</div>
+									<div class="time">12:16 to 01:15</div>
 									<div class="desc">
-										<h3>Women To Womentechnopreneurs</h3>
+										<h3>Startup Pitching</h3>
+									</div>
+								</li>
+								<li>
+									<div class="bullet orange"></div>
+									<div class="time">01:16 to 02.00</div>
+									<div class="desc">
+										<h3>IDEA EXCHANGE NETWORKING LUNCH</h3>
 									</div>
 								</li>
 								
@@ -409,47 +420,60 @@
 					<div class="col">
 						<div class="timeline">
 							<ul>
-								<li>
-									<div class="bullet orange"></div>
-									<div class="time">01:00 PM – 02:00 PM</div>
-									<div class="desc">
-										<h3>LUNCH BREAK</h3>
-									</div>
-								</li>
+								
 								<li>
 									<div class="bullet pink"></div>
-									<div class="time">02:01 PM – 02:45 PM</div>
+									<div class="time">02.01 to 03:00</div>
 									<div class="desc">
-										<h3>Pitching Phase 2 Five startup</h3>
+										<h3>Startup Pitching</h3>
 										<!-- <h4>Mobile App</h4> -->
 									</div>
 								</li>
 								<li>
 									<div class="bullet orange"></div>
-									<div class="time">02:46 PM – 03:15 PM</div>
+									<div class="time">03.01 to 03:30</div>
 									<div class="desc">
-										<h3>How Technology-enabled Startups will decide the future</h3>
+										<h3>Key Note address</h3>
 									</div>
 								</li>
 								<li>
 									<div class="bullet pink"></div>
-									<div class="time">03:16 PM – 04:15 PM</div>
+									<div class="time">03:31 to 04:15</div>
 									<div class="desc">
-										<h3>Challenges and solutions in funding Startups</h3>
+										<h3>	
+											FIRESIDE CHAT: Entrepreneurs Who Lead : The Women Building Tomorrow’s Business</h3>
 									</div>
 								</li>
 								<li>
 									<div class="bullet orange"></div>
-									<div class="time">04:16 PM – 04:45 PM</div>
+									<div class="time">04:16 to 04:30</div>
 									<div class="desc">
-										<h3>Fireside Chat: Corporate Connect with Ms.</h3>
+										<h3>Tea Break</h3>
 									</div>
 								</li>
 								<li>
 									<div class="bullet pink"></div>
-									<div class="time">04:46 PM</div>
+									<div class="time">04:31 to 05:15</div>
 									<div class="desc">
-										<h3>Startup Knockoff - The Mega Session : The National Grand Challenge Winner </h3>
+										<h3>	
+											PANEL DISCUSSION: Breaking Barriers & Building Bridges</h3>
+									</div>
+								</li>
+								<li>
+									<div class="bullet pink"></div>
+									<div class="time">05:15 to 05:50</div>
+									<div class="desc">
+										<h3>	
+											PANEL DISCUSSION: Government’s Imminent Role in Nurturing an Inclusive Entrepreneurship Ecosystem</h3>
+									</div>
+								</li>
+								<li>
+									<div class="bullet pink"></div>
+									<div class="time">05:50 to 06:00</div>
+									<div class="desc">
+										<h3>	
+											Concluding Remarks
+										</h3>
 									</div>
 								</li>
 							</ul>
@@ -459,7 +483,7 @@
     </div>
 </div>
 
-<div class="homepage-regional-events">
+<div class="homepage-regional-events" >
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -467,53 +491,29 @@
 
                 <div class="events-partners">
                     <header class="entry-header">
-                        <h2 class="entry-title">ATTENDEES</h2>
+                        <h2 class="entry-title">Who can attend?</h2>
                     </header>
 
 
-                    <p class="text-white">Women Startup Summit will be attended by a cross section of ____</p>
+                    <p class="text-white">Ecosystem enablers, corporate heads, Industry, Aspiring professionals and entrepreneurs who would like to develop an inclusive entrepreneurship ecosystem in Kerala can attend the summit.</p>
 
-                    <!-- <div class="events-partners-logos flex flex-wrap justify-content-between align-items-center">
+										<header class="entry-header">
+											<h2 class="entry-title">Partners</h2>
+									</header>
+                    <div class="events-partners-logos flex flex-wrap justify-content-between align-items-center">
                         <div class="event-partner-logo">
-                            <a href="#"><img src="images/slt/part1.png" alt=""></a>
+                            <a href="#"><img src="images/slt/part3.png" alt=""></a>
                         </div>
 
                         <div class="event-partner-logo">
-                            <a href="#"><img src="images/slt/part1.png" alt=""></a>
+                            <a href="#"><img src="images/slt/part4.png" alt=""></a>
                         </div>
 
                         <div class="event-partner-logo">
-                            <a href="#"><img src="images/slt/part1.png" alt=""></a>
+                            <a href="#"><img src="images/slt/part2.png" alt=""></a>
                         </div>
 
-                        <div class="event-partner-logo">
-                            <a href="#"><img src="images/slt/part1.png" alt=""></a>
-                        </div>
-
-                        <div class="event-partner-logo">
-                            <a href="#"><img src="images/slt/part1.png" alt=""></a>
-                        </div>
-
-                        <div class="event-partner-logo">
-                            <a href="#"><img src="images/slt/part1.png" alt=""></a>
-                        </div>
-
-                        <div class="event-partner-logo">
-                            <a href="#"><img src="images/slt/part1.png" alt=""></a>
-                        </div>
-
-                        <div class="event-partner-logo">
-                            <a href="#"><img src="images/slt/part1.png" alt=""></a>
-                        </div>
-
-                        <div class="event-partner-logo">
-                            <a href="#"><img src="images/slt/part1.png" alt=""></a>
-                        </div>
-
-                        <div class="event-partner-logo">
-                            <a href="#"><img src="images/slt/part1.png" alt=""></a>
-                        </div>
-                    </div> -->
+                    </div>
                 </div>
 
             </div>
@@ -616,7 +616,10 @@
 <script type='text/javascript' src='js/jquery.countdown.min.js'></script>
 <script type='text/javascript' src='js/circle-progress.min.js'></script>
 <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
+<script src="../assets/js/smooth-scroll.js"></script>
 <script type='text/javascript' src='js/custom.js'></script>
-
+<script>
+	
+</script>
 </body>
 </html>

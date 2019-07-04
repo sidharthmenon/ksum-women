@@ -95,12 +95,12 @@ a:hover, a:active {
 .btn.gradient-bg {
     padding: 18px 46px;
     border: 0;
-    background: -moz-linear-gradient(180deg, rgba(171,0,229,1) 0%, rgba(88,20,121,1) 100%); /* ff3.6+ */
+    background: -moz-linear-gradient(180deg, rgb(98, 58, 255) 0%, #98c0fb 100%); /* ff3.6+ */
     background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(88,20,121,1)), color-stop(100%, rgba(171,0,229,1))); /* safari4+,chrome */
-    background: -webkit-linear-gradient(180deg, rgba(171,0,229,1) 0%, rgba(88,20,121,1) 100%); /* safari5.1+,chrome10+ */
-    background: -o-linear-gradient(180deg, rgba(171,0,229,1) 0%, rgba(88,20,121,1) 100%); /* opera 11.10+ */
-    background: -ms-linear-gradient(180deg, rgba(171,0,229,1) 0%, rgba(88,20,121,1) 100%); /* ie10+ */
-    background: linear-gradient(270deg, rgba(171,0,229,1) 0%, rgba(88,20,121,1) 100%); /* w3c */
+    background: -webkit-linear-gradient(180deg, rgb(98, 58, 255) 0%, #98c0fb 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(180deg, rgb(98, 58, 255) 0%, #98c0fb 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(180deg, rgb(98, 58, 255) 0%, #98c0fb 100%); /* ie10+ */
+    background: linear-gradient(270deg, rgb(98, 58, 255) 0%, #98c0fb 100%); /* w3c */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#581479', endColorstr='#ab00e5',GradientType=1 ); /* ie6-9 */
     color: #fff;
 }
@@ -561,7 +561,7 @@ a:hover, a:active {
 .homepage-featured-events {
     height: auto;
     padding: 100px 0 500px;
-    background: url("images/slt/featured-events-bg.jpg") no-repeat center;
+    background: url("images/slt/featured-events-bg1.jpg") no-repeat center;
     background-size: cover !important;
 }
 
@@ -901,7 +901,7 @@ a:hover, a:active {
 .homepage-regional-events {
     min-height: 800px;
     padding-top: 280px;
-    background: url("images/slt/regional-events-bg.jpg") no-repeat;
+    background: url("images/slt/regional-events-bg1.jpg") no-repeat;
     background-size: cover;
 }
 
@@ -1020,7 +1020,7 @@ a:hover, a:active {
 .events-partners-logos .event-partner-logo {
     width: 20%;
     min-width: 220px;
-    margin-top: 80px;
+    /* margin-top: 80px; */
     text-align: center;
 }
 
@@ -2228,4 +2228,18 @@ ul.tabs-nav .tab-nav.active {
 
 #ksum-copy{
     background-color: #080113;
+}
+
+.swiper-slide{
+    /* background: #fff;
+    padding-bottom: 20px;
+    color: #AA00FF; */
+}
+
+.wss-logo{
+    content: ' ';
+    background: url("./images/slt/logo-wss.png");
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
