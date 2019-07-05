@@ -219,63 +219,15 @@
 					<div class="col">
 						<div class="timeline">
 							<ul>
-								<li>
-									<div class="bullet pink"></div>
-									<div class="time">08:15 to 09:30</div>
+								<li v-for="(item, index) in left">
+									<div class="bullet" :class="index%2?'pink':'orange'"></div>
+									<div class="time">{{item.time}}</div>
 									<div class="desc">
-										<h3>Registration</h3>
+										<h3>{{item.item}}</h3>
 										<!-- <h4>Mobile App</h4> -->
 									</div>
 								</li>
-								<li>
-									<div class="bullet orange"></div>
-									<div class="time">09.31 to 10.00</div>
-									<div class="desc">
-										<h3>Inaugurual Ceremony</h3>
-									</div>
-								</li>
-								<li>
-									<div class="bullet pink"></div>
-									<div class="time">10.01 to 10.30</div>
-									<div class="desc">
-										<h3>FIRESIDE CHAT - Women to Inspire</h3>
-									</div>
-								</li>
-								<li>
-									<div class="bullet orange"></div>
-									<div class="time">10:31 to 11:15</div>
-									<div class="desc">
-										<h3>PANEL DISCUSSION : Women in Business</h3>
-									</div>
-								</li>
-								<li>
-									<div class="bullet pink"></div>
-									<div class="time">11:16 to 11.30</div>
-									<div class="desc">
-										<h3>Tea Break</h3>
-									</div>
-								</li>
-								<li>
-									<div class="bullet orange"></div>
-									<div class="time">11.31 to 12.15</div>
-									<div class="desc">
-										<h3>PANEL DISCUSSION : Women On-board</h3>
-									</div>
-								</li>
-								<li>
-									<div class="bullet pink"></div>
-									<div class="time">12:16 to 01:15</div>
-									<div class="desc">
-										<h3>Startup Pitching</h3>
-									</div>
-								</li>
-								<li>
-									<div class="bullet orange"></div>
-									<div class="time">01:16 to 02.00</div>
-									<div class="desc">
-										<h3>IDEA EXCHANGE NETWORKING LUNCH</h3>
-									</div>
-								</li>
+								
 								
 								<!-- <li>
 									<div class="bullet green"></div>
@@ -297,61 +249,14 @@
 						<div class="timeline">
 							<ul>
 								
-								<li>
-									<div class="bullet pink"></div>
-									<div class="time">02.01 to 03:00</div>
-									<div class="desc">
-										<h3>Startup Pitching</h3>
-										<!-- <h4>Mobile App</h4> -->
-									</div>
-								</li>
-								<li>
-									<div class="bullet orange"></div>
-									<div class="time">03.01 to 03:30</div>
-									<div class="desc">
-										<h3>Key Note address</h3>
-									</div>
-								</li>
-								<li>
-									<div class="bullet pink"></div>
-									<div class="time">03:31 to 04:15</div>
-									<div class="desc">
-										<h3>	
-											FIRESIDE CHAT: Entrepreneurs Who Lead : The Women Building Tomorrow’s Business</h3>
-									</div>
-								</li>
-								<li>
-									<div class="bullet orange"></div>
-									<div class="time">04:16 to 04:30</div>
-									<div class="desc">
-										<h3>Tea Break</h3>
-									</div>
-								</li>
-								<li>
-									<div class="bullet pink"></div>
-									<div class="time">04:31 to 05:15</div>
-									<div class="desc">
-										<h3>	
-											PANEL DISCUSSION: Breaking Barriers & Building Bridges</h3>
-									</div>
-								</li>
-								<li>
-									<div class="bullet pink"></div>
-									<div class="time">05:15 to 05:50</div>
-									<div class="desc">
-										<h3>	
-											PANEL DISCUSSION: Government’s Imminent Role in Nurturing an Inclusive Entrepreneurship Ecosystem</h3>
-									</div>
-								</li>
-								<li>
-									<div class="bullet pink"></div>
-									<div class="time">05:50 to 06:00</div>
-									<div class="desc">
-										<h3>	
-											Concluding Remarks
-										</h3>
-									</div>
-								</li>
+									<li v-for="(item, index) in right">
+										<div class="bullet" :class="index%2?'pink':'orange'"></div>
+										<div class="time">{{item.time}}</div>
+										<div class="desc">
+											<h3>{{item.item}}</h3>
+											<!-- <h4>Mobile App</h4> -->
+										</div>
+									</li>
 							</ul>
 						</div>  
 					</div>

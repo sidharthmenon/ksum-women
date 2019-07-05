@@ -4,94 +4,214 @@ var app = new Vue({
     speakers: [
       {
         "image": "event-slider-1.png",
-        "name": "Ms. Anjali Bansal",
+        "sl": 1,
+        "name": "Anjali Bansal",
         "desi": "Founder",
         "company": "Avaana Capital"
       },
       {
-        "image": "event-slider-12.png",
-        "name": "Shalini Warrier",
-        "desi": "Chief Operating Officer",
-        "company": "Federal bank"
+        "image": "event-slider-8.png",
+        "sl": 2,
+        "name": "Anupam Nidhi",
+        "desi": "Head Corporate citizneship an Sustainability",
+        "company": "Siemens"
       },
       {
-        "image": "event-slider-13.png",
-        "name": "Ms. Rashmi Bansal",
-        "desi": "Author, Motivational Speaker, Entrepreneur ",
-        "company": ""
+        "image": "event-slider-7.png",
+        "sl": 3,
+        "name": "Deena Jacob",
+        "desi": "CFO",
+        "company": "Open bank"
+      },
+      {
+        "image": "event-slider-2.png",
+        "sl": 4,
+        "name": "Deepthi Dutt",
+        "desi": "Head of strategic initiatives Public sector",
+        "company": "Amazon"
+      },
+      {
+        "image": "event-slider-20.png",
+        "sl": 5,
+        "name": "Dr. Chitra IAS",
+        "desi": "Director",
+        "company": "IT Mission"
       },
       {
         "image": "event-slider-15.png",
+        "sl": 6,
         "name": "Dr. M. Beena IAS",
         "desi": "Chairperson",
         "company": "Cochin Port Trust"
       },
       {
+        "image": "event-slider-5.png",
+        "sl": 7,
+        "name": "Dr. Mridul Eapen",
+        "desi": "Member",
+        "company": "Kerala State Planning Board"
+      },
+      {
+        "image": "event-slider-23.png",
+        "sl": 8,
+        "name": "Dr.Saji Gopinath",
+        "desi": "CEO",
+        "company": "KSUM"
+      },
+      {
+        "image": "event-slider-21.png",
+        "sl": 9,
+        "name": "Ms. Shrayana Bhattacharya",
+        "desi": "Senior Economist",
+        "company": "World Bank"
+      },
+      {
         "image": "event-slider-16.png",
-        "name": "Niveditha",
+        "sl": 10,
+        "name": "Nivedha R M",
         "desi": "Founder & CEO",
         "company": "Trashcon"
       },
       {
-        "image": "event-slider-17.png",
-        "name": "Ms. Shelley Thakral",
-        "desi": "Head of Policy programme",
-        "company": "Facebook"
-      },
-      {
-        "image": "event-slider-2.png",
-        "name": "Ms. Deepthi Dut",
-        "desi": "Head of Strategic Initiatives- Public Sector",
-        "company": "Amazon"
-      },
-      {
         "image": "event-slider-3.png",
-        "name": "Padmaja Ruparel",
+        "sl": 11,
+        "name": "Padmaja Rupal",
         "desi": "Co-Founder",
-        "company": "Indian Angel Network"
+        "company": "IAN"
+      },
+      {
+        "image": "event-slider-13.png",
+        "sl": 12,
+        "name": "Rashmi Bansal",
+        "desi": "Author, Motivational Speaker, Entrepreneur",
+        "company": ""
+      },
+      {
+        "image": "event-slider-12.png",
+        "sl": 13,
+        "name": "Shalini Warrier",
+        "desi": "COO",
+        "company": "Federal bank"
       },
       {
         "image": "event-slider-4.png",
-        "name": "Ms. Shan Mohan",
+        "sl": 14,
+        "name": "Shanti Mohan",
         "desi": "Founder",
         "company": "Lets Venture"
       },
       {
-        "image": "event-slider-5.png",
-        "name": "Dr. Mrudul Eappen",
-        "desi": "Member Planning Board",
+        "image": "event-slider-14.png",
+        "sl": 15,
+        "name": "Sheela Kochouseph",
+        "desi": "Founder",
+        "company": "V-star"
+      },
+      {
+        "image": "event-slider-17.png",
+        "sl": 16,
+        "name": "Shelley Thakral",
+        "desi": "Head of Policy programme ( India, South Asia and Central Asia)",
+        "company": "Facebook"
+      },
+      {
+        "image": "event-slider-22.png",
+        "sl": 17,
+        "name": "Smt. Sarada Muralidharan IAS",
+        "desi": "Director General",
+        "company": "NIFT"
+      },
+      {
+        "image": "event-slider-24.png",
+        "sl": 18,
+        "name": "Sri. M Sivasankar IAS",
+        "desi": "Secretary IT",
         "company": ""
       },
       {
         "image": "event-slider-6.png",
-        "name": "Ms. Sunitha Sanghi",
+        "sl": 19,
+        "name": "Sunita Sanghi",
         "desi": "Senior Advisor",
-        "company": "Ministry of Skill Development and Entrepreneurship"
-      },
-      {
-        "image": "event-slider-7.png",
-        "name": "Ms. Deena Jacob",
-        "desi": "CFO",
-        "company": "Open Bank"
-      },
-      {
-        "image": "event-slider-8.png",
-        "name": "Ms. Anupam Nidhi",
-        "desi": "Head- Corporate Citizenship and Sustainability",
-        "company": "Siemens"
+        "company": "Ministry of Skill Development & Entrepreneurship"
       },
       {
         "image": "event-slider-18.png",
-        "name": "Ms. Sunita Singh",
+        "sl": 20,
+        "name": "Sunita Singh",
         "desi": "Executive Vice President",
         "company": "Wadhwani Foundation"
-      },
-      {
-        "image": "event-slider-19.png",
-        "name": "Smt. Gayathri Kaliya",
-        "desi": "Strategy and Delivery Expert SDGs",
-        "company": ""
       }
     ]
   }
-})
+});
+
+var app = new Vue({
+  el: '#agenda',
+  data: {
+    left: [
+      {
+        "time": "08:00 am -09:30 am",
+        "item": "Registration and Networking"
+      },
+      {
+        "time": "9.31 am - 09:40 am",
+        "item": "Welcome and Opening Remarks"
+      },
+      {
+        "time": "09:41am -10:00 am",
+        "item": "Inauguration and Keynote Address"
+      },
+      {
+        "time": "10:01 am -10:30 am",
+        "item": "FIRESIDE CHAT - Women to Inspire - Stories of Successful Entrepreneurs"
+      },
+      {
+        "time": "10:31 am -11:15 am",
+        "item": "PANEL DISCUSSION  - Women in Business"
+      },
+      {
+        "time": "11:16 am -11:30 am",
+        "item": "Networking Break"
+      },
+      {
+        "time": "11:31 am -12:15 pm",
+        "item": "PANEL DISCUSSION - Inclusivity in the Workplace"
+      },
+      {
+        "time": "12:16 pm - 1:15 pm",
+        "item": "Startup Pitching"
+      }
+    ],
+    right:[
+      {
+        "time": "1:16 pm - 2.00 pm",
+        "item": "IDEA EXCHANGE & NETWORKING LUNCH"
+      },
+      {
+        "time": "2.01 pm - 3:00 pm",
+        "item": "Startup Pitching"
+      },
+      {
+        "time": "03:01 pm - 03:45 pm",
+        "item": "PANEL DISCUSSION - The Women Building Tomorrow’s Business"
+      },
+      {
+        "time": "03:46 pm - 04:00 pm",
+        "item": "Networking Break"
+      },
+      {
+        "time": "04:01 pm - 04:45pm",
+        "item": "PANEL DISCUSSION - Building an Inclusive Entrepreneurship Ecosystem"
+      },
+      {
+        "time": "04:46 pm - 05:15 pm",
+        "item": "Honoring the Change Makers"
+      },
+      {
+        "time": "",
+        "item": "Valedictory Address"
+      }
+    ]
+  }
+});
