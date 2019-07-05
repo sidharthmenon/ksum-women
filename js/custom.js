@@ -253,7 +253,7 @@
     })
 
     $(window).on('scroll', function () {
-        if ($(window).scrollTop() < 700) {
+        if ($(window).scrollTop() < 600) {
             $('.site-navigation').removeClass('sticky_header');
         } else {
             $('.site-navigation').addClass('sticky_header');

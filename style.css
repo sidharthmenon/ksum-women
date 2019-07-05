@@ -325,7 +325,7 @@ a:hover, a:active {
 }
 
 .hero-content h2{
-    color: white;
+    color: #9d0744;
 
     font-family: 'Rubik Mono One', sans-serif;
     font-family: 'Fredoka One', cursive;
@@ -336,7 +336,7 @@ a:hover, a:active {
 
 }
 .hero-content h5, .hero-content h3{
-    color: white;
+    color: #9d0744;
     font-family: 'Spinnaker', sans-serif;
 }
 .hero-content h3{
@@ -2341,6 +2341,7 @@ ul.tabs-nav .tab-nav.active {
    .hero-content .entry-footer a img{
         animation: bird 5s linear infinite;
         transform-origin: bottom center;
+        width:75%;
    }
 
    @keyframes bird {
@@ -2350,6 +2351,41 @@ ul.tabs-nav .tab-nav.active {
     75%  {transform: rotateZ(0deg);}
     100%   {transform: rotateZ(-5deg);}
   }
+
+    .details h3:before{
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        padding-right: 10px;
+        color: #fe3549;
+    }
+
+    #loc:before {
+        content: "\f041";
+    }
+    #date:before{
+        content: "\f133";
+    }
+
+    #map{
+        line-height: 0;
+    }
+
+    #map h3 {
+        position: absolute;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        font-weight: 900;
+        text-shadow: 0px 0px 5px #fff;
+        color: #9a28d7;
+        padding-top: 20px;
+    }
+
+    
 
 
 
