@@ -2332,6 +2332,8 @@ ul.tabs-nav .tab-nav.active {
    .hero-content .entry-footer{
         display: flex;
         flex-direction: column;
+        height: 170px;
+        margin-right: -70px;
    }
 
    .hero-content .entry-footer a{
@@ -2341,7 +2343,8 @@ ul.tabs-nav .tab-nav.active {
    .hero-content .entry-footer a img{
         animation: bird 5s linear infinite;
         transform-origin: bottom center;
-        width:75%;
+        width:50%;
+        margin-top: -70px;
    }
 
    @keyframes bird {
@@ -2383,6 +2386,25 @@ ul.tabs-nav .tab-nav.active {
         text-shadow: 0px 0px 5px #fff;
         color: #9a28d7;
         padding-top: 20px;
+    }
+
+    .pageheader{
+        background-image: url('./images/slt/header.png');
+        background-size: cover;
+        height: 25vh;
+    }
+
+    .speakers-item .entry-title{
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .speakers-item figure{
+        margin: 0px;
+    }
+
+    .speakers-item .posted-date{
+        line-height: 1;
     }
 
     

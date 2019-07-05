@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Women Startup Summit</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Spinnaker&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="timeline.css">
+    <link rel="stylesheet" href="ksum_footer.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<header class="site-header">
+  <div class="header-bar">
+      <div class="container-fluid">
+          <div class="row justify-content-end">
+            <div class="col-7">
+              <nav class="site-navigation fixed-top">
+                <div class="hamburger-menu d-lg-none">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div><!-- .hamburger-menu -->
+
+                <ul>
+                    <li><a data-scroll href="index.html#home">Home</a></li>
+                    <li><a data-scroll href="index.html#about">About</a></li>
+                    <li><a data-scroll href="index.html#speakers">Speakers</a></li>
+                    <li><a data-scroll href="index.html#agenda">Agenda</a></li>
+                    <li><a data-scroll href="index.html#ksum-footer">Contact</a></li>
+                </ul>
+              </nav><!-- .site-navigation -->
+            </div>
+          </div>
+      </div><!-- .container-fluid -->
+  </div><!-- .header-bar -->
+
+  <div id="home">
+    <div class="pageheader">
+
+    </div>
+  </div>
+
+  <div class="homepage-next-events pb-5" id="agenda">
+    <div class="container">
+      <div class="row justify-content-start">
+          <div class="next-events-section-header">
+              <h2 class="entry-title">Speakers</h2>
+              <!-- <p>Vestibulum eget lacus at mauris sagittis varius. Etiam ut venenatis dui. Nullam tellus risus, pellentesque at facilisis et, scelerisque sit amet metus. Duis vel semper turpis, ac tempus libero. Maecenas id ultrices risus. Aenean nec ornare ipsum, lacinia.</p> -->
+          </div>
+      </div>
+      <div class="container">
+        <div class="row" id="slidervue">
+
+              <div class="speakers-item col-sm-2 d-flex align-items-stretch flex-column text-center pt-3" v-for="speaker in speakers">
+                <figure>
+                    <img :src="'images/slt/'+speaker.image" alt="">
+                </figure><!-- .hero-image -->
+
+                <div class="entry-header">
+                    <h2 class="entry-title">{{speaker.name}}</h2>
+                </div><!--- .entry-header -->
+
+                <div class="entry-footer">
+                    <div class="posted-date">{{speaker.desi}}</div>
+
+                    <div class="posted-date pt-1">{{speaker.company}}</div>
+                </div><!-- .entry-footer" -->
+              </div><!-- .swiper-slide -->
+          
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <section id="ksum-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4 d-flex flex-column"><img class="img-fluid" src="images/slt/logo-white.svg">
+              <div class="footer-address w-100">
+                      <p class="text-center">Kerala Startup Mission<br></p>
+                      <p class="text-center">G3B, Thejaswini, Technopark Campus<br></p>
+                      <p class="text-center">Kariyavattom, Trivandrum, Kerala 695581<br></p>
+              </div>
+              <div class="d-flex flex-row flex-grow-1 flex-fill justify-content-center footer-phone">
+                  <i class="fa fa-phone fa-3x"></i>
+                      <h3>08033948999<br></h3>
+              </div>
+              <p class="text-center">( Timings: 08.00 am to 08.00 pm )<br></p>
+              <div class="d-flex flex-row justify-content-center align-items-center align-content-center footer-social mt-4"><a href="https://www.facebook.com/keralastartupmission"><i class="fa fa-facebook fa-2x"></i></a><a href="https://twitter.com/startup_mission"><i class="fa fa-twitter fa-2x"></i></a><a href="https://in.linkedin.com/company/kerala-startup-mission"><i class="fa fa-linkedin fa-2x"></i></a>
+                      <a href="https://www.pinterest.com/pin/796996465276301175/"><i class="fa fa-pinterest fa-2x"></i></a><a href="https://www.youtube.com/channel/UCGnD5pg8MOIetz93sEvCHbw"><i class="fa fa-youtube-play fa-2x"></i></a></div>
+      </div>
+      <div class="col-sm-4 mt-4">
+              <h2>Useful Links<br></h2>
+              <ul class="useful-link">
+                      <li><a href="https://startupmission.kerala.gov.in">Home</a></li>
+                      <li><a href="https://startupmission.kerala.gov.in/media-kit">Media Kit</a></li>
+                      <li><a href="https://startupmission.kerala.gov.in/about">About KSUM</a></li>
+                      <li><a href="https://startupmission.kerala.gov.in/faq">FAQ</a></li>
+                      <li><a href="https://startupmission.kerala.gov.in/news">Latest News</a></li>
+                      <li><a href="https://startupmission.kerala.gov.in/site-map">Site Map</a></li>
+                      <li><a href="https://startupmission.kerala.gov.in/career">Career</a></li>
+                      <li><a href="https://startupmission.kerala.gov.in/tender">Tenders</a></li>
+                      <li><a href="https://startupmission.kerala.gov.in/gov-orders">Government Orders</a></li>
+                      <li><a href="https://startupmission.kerala.gov.in/contact">Contact</a></li>
+              </ul>
+      </div>
+      <div class="col-sm-4 mt-4">
+              <h2>CONTACT<br></h2>
+              <p>
+                <b>Salini V R</b><br>
+                Assitant Manager, Global Linkages,<br>
+                Kerala Startup Mission<br>
+                Contact Number: +91 9633-24-5595<br>
+                Contact id : salini@startupmission.in
+              </p>
+              
+      </div>
+      
+    </div>
+  </div>
+</section>
+<section id="ksum-copy">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <p class="text-center copyright-text">Copyright © 2019 Kerala Startup Mission. All Rights Reserved.<br></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="back-to-top flex justify-content-center align-items-center">
+    <span><svg viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1395 1184q0 13-10 23l-50 50q-10 10-23 10t-23-10l-393-393-393 393q-10 10-23 10t-23-10l-50-50q-10-10-10-23t10-23l466-466q10-10 23-10t23 10l466 466q10 10 10 23z"/></svg></span>
+</div>
+
+<script type='text/javascript' src='js/jquery.js'></script>
+<script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="js/vue_code.js"></script>
+
+
+
+</body>
+</html>
