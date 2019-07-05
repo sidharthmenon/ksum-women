@@ -206,7 +206,7 @@ var app = new Vue({
       },
       {
         "time": "04:46 pm - 05:15 pm",
-        "item": "Honoring the Change Makers"
+        "item": "Honouring the Change Makers"
       },
       {
         "time": "",

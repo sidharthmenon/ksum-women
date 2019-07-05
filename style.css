@@ -336,11 +336,12 @@ a:hover, a:active {
 
 }
 .hero-content h5, .hero-content h3{
-    color: #9d0744;
+    color: #9e0742;
     font-family: 'Spinnaker', sans-serif;
 }
 .hero-content h3{
     font-weight: bold;
+    text-shadow: 1px 1px 5px #ffffff;
 }
 
 .hero-content .container,
@@ -2345,6 +2346,19 @@ ul.tabs-nav .tab-nav.active {
         transform-origin: bottom center;
         width:50%;
         margin-top: -70px;
+   }
+
+   .bird{
+        right: 100px;
+        position: absolute;
+        margin-top: 300px;
+   }
+
+   .bird img{
+        animation: bird 5s linear infinite;
+        transform-origin: bottom center;
+        width: 100px;
+        
    }
 
    @keyframes bird {
