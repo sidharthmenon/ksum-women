@@ -95,12 +95,12 @@ a:hover, a:active {
 .btn.gradient-bg {
     padding: 18px 46px;
     border: 0;
-    background: -moz-linear-gradient(180deg, rgb(88,20,121,1) 0%, rgba(171,0,229,1) 100%); /* ff3.6+ */
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(88,20,121,1)), color-stop(100%, rgba(171,0,229,1))); /* safari4+,chrome */
-    background: -webkit-linear-gradient(180deg, rgb(88,20,121,1) 0%, rgba(171,0,229,1) 100%); /* safari5.1+,chrome10+ */
-    background: -o-linear-gradient(180deg, rgb(88,20,121,1) 0%, rgba(171,0,229,1) 100%); /* opera 11.10+ */
-    background: -ms-linear-gradient(180deg, rgb(88,20,121,1) 0%, rgba(171,0,229,1) 100%); /* ie10+ */
-    background: linear-gradient(270deg, rgb(88,20,121,1) 0%, rgba(171,0,229,1) 100%); /* w3c */
+    background: -moz-linear-gradient(180deg, rgb(154, 6, 64) 0%, rgba(255, 52, 75) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(154, 6, 64)), color-stop(100%, rgba(255, 52, 75))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(180deg, rgb(154, 6, 64) 0%, rgba(255, 52, 75) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(180deg, rgb(154, 6, 64) 0%, rgba(255, 52, 75) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(180deg, rgb(154, 6, 64) 0%, rgba(255, 52, 75) 100%); /* ie10+ */
+    background: linear-gradient(270deg, rgb(154, 6, 64) 0%, rgba(255, 52, 75) 100%); /* w3c */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#581479', endColorstr='#ab00e5',GradientType=1 ); /* ie6-9 */
     color: #fff;
 }
@@ -291,7 +291,7 @@ a:hover, a:active {
     }
 
     .site-navigation ul li a {
-        color: #fff;
+        color: #9d0744;
     }
 }
 
@@ -357,7 +357,7 @@ a:hover, a:active {
 }
 
 .hero-slider .btn {
-    margin-top: 25px;
+    /* margin-top: 25px; */
 }
 
 .swiper-container-horizontal >.swiper-pagination-bullets,
@@ -560,7 +560,7 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 .homepage-featured-events {
     height: auto;
-    padding: 100px 0 500px;
+    padding: 100px 0 400px;
     background: url("images/slt/featured-events-bg1.jpg") no-repeat center;
     background-size: cover !important;
 }
@@ -717,7 +717,7 @@ a:hover, a:active {
 
 @media screen and (min-width: 1200px) {
     .homepage-featured-events {
-        min-height: 1085px;
+        min-height: 800px;
     }
 
     .homepage-featured-events .positioning-event-1 {
@@ -899,7 +899,7 @@ a:hover, a:active {
 # Homepage - Regional Events
 --------------------------------------------------------------*/
 .homepage-regional-events {
-    min-height: 800px;
+    min-height: 650px;
     padding-top: 280px;
     background: url("images/slt/regional-events-bg1.jpg") no-repeat;
     background-size: cover;
@@ -2258,6 +2258,11 @@ ul.tabs-nav .tab-nav.active {
     top:0;
 }
 
+.sticky_header ul li a {
+    color:white;
+}
+
+
 .marquee {
     color: white;
     text-align: left;
@@ -2323,3 +2328,29 @@ ul.tabs-nav .tab-nav.active {
     -webkit-filter: grayscale(0%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
     filter: grayscale(0%); /* FF 35+ */
    }
+
+   .hero-content .entry-footer{
+        display: flex;
+        flex-direction: column;
+   }
+
+   .hero-content .entry-footer a{
+    align-self: center;
+   }
+
+   .hero-content .entry-footer a img{
+        animation: bird 5s linear infinite;
+        transform-origin: bottom center;
+   }
+
+   @keyframes bird {
+    0%   {transform: rotateZ(-5deg);}
+    25%  {transform: rotateZ(0deg);}
+    50% {transform: rotateZ(5deg);}
+    75%  {transform: rotateZ(0deg);}
+    100%   {transform: rotateZ(-5deg);}
+  }
+
+
+
+

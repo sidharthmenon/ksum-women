@@ -9,34 +9,16 @@ var app = new Vue({
         "company": "Avaana Capital"
       },
       {
-        "image": "event-slider-10.png",
-        "name": "Dr. Usha Titus IAS",
-        "desi": "Principal Secretary",
-        "company": "Higher Education"
-      },
-      {
-        "image": "event-slider-11.png",
-        "name": "Virginia Tan",
-        "desi": "",
-        "company": "SHE LOVES TECH"
-      },
-      {
         "image": "event-slider-12.png",
         "name": "Shalini Warrier",
-        "desi": "",
+        "desi": "Chief Operating Officer",
         "company": "Federal bank"
       },
       {
         "image": "event-slider-13.png",
         "name": "Ms. Rashmi Bansal",
-        "desi": "Author",
-        "company": "Co-founder of JAM magazine"
-      },
-      {
-        "image": "event-slider-14.png",
-        "name": "Sheila Kochouseph",
-        "desi": "",
-        "company": "V-Star"
+        "desi": "Author, Motivational Speaker, Entrepreneur ",
+        "company": ""
       },
       {
         "image": "event-slider-15.png",
@@ -47,8 +29,14 @@ var app = new Vue({
       {
         "image": "event-slider-16.png",
         "name": "Niveditha",
-        "desi": "",
+        "desi": "Founder & CEO",
         "company": "Trashcon"
+      },
+      {
+        "image": "event-slider-17.png",
+        "name": "Ms. Shelley Thakral",
+        "desi": "Head of Policy programme",
+        "company": "Facebook"
       },
       {
         "image": "event-slider-2.png",
@@ -64,7 +52,7 @@ var app = new Vue({
       },
       {
         "image": "event-slider-4.png",
-        "name": "Ms. Shanti",
+        "name": "Ms. Shan Mohan",
         "desi": "Founder",
         "company": "Lets Venture"
       },
@@ -93,10 +81,16 @@ var app = new Vue({
         "company": "Siemens"
       },
       {
-        "image": "event-slider-9.png",
-        "name": "Deepthi Ravula",
-        "desi": "",
-        "company": "WEHub"
+        "image": "event-slider-18.png",
+        "name": "Ms. Sunita Singh",
+        "desi": "Executive Vice President",
+        "company": "Wadhwani Foundation"
+      },
+      {
+        "image": "event-slider-19.png",
+        "name": "Smt. Gayathri Kaliya",
+        "desi": "Strategy and Delivery Expert SDGs",
+        "company": ""
       }
     ]
   }
