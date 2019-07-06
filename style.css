@@ -167,7 +167,7 @@ a:hover, a:active {
     position: absolute;
     height: 2px;
     width: 100%;
-    background: #fff;
+    background: #9d0744;
     border-radius: 10px;
     opacity: 1;
     left: 0;
@@ -2424,12 +2424,29 @@ ul.tabs-nav .tab-nav.active {
 
     .speakers-item figure{
         margin: 0px;
+        cursor: pointer;
     }
 
     .speakers-item .posted-date{
         line-height: 1;
     }
 
+    .speakers-item .entry-details{
+        position:absolute;
+        bottom: 7px;
+        background: cornflowerblue;
+        color: white;
+        width: 166px;
+        height: 0px;
+        /* height: 259px; */
+        opacity: 0;
+        transition: all 0.5s ease-in-out
+    }
+
+    .speakers-item:hover .entry-details{
+        height: 259px;
+        opacity: 1;
+    }
     
 
     @media only screen and (max-width: 600px) {
@@ -2442,4 +2459,18 @@ ul.tabs-nav .tab-nav.active {
         }
     }
 
+    #register{
+        height: 50vh;
+        padding: 50px 100px;
+        /* background: url('./images/slt/register-bg.jpg') no-repeat;
+        background-size: cover;
+        background-position: top; */
+    }
+
+    #register  h2{
+        font-size: 60px;
+        font-weight: bold;
+        line-height: 1;
+        color: #232127;
+    }
 

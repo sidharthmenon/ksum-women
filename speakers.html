@@ -40,10 +40,10 @@
 
                 <ul>
                     <li><a data-scroll href="index.html#home">Home</a></li>
-                    <li><a data-scroll href="index.html#about">About</a></li>
+                    <!-- <li><a data-scroll href="index.html#about">About</a></li>
                     <li><a data-scroll href="index.html#speakers">Speakers</a></li>
-                    <li><a data-scroll href="index.html#agenda">Agenda</a></li>
-                    <li><a data-scroll href="index.html#ksum-footer">Contact</a></li>
+                    <li><a data-scroll href="index.html#agenda">Agenda</a></li> -->
+                    <li><a data-scroll href="index.html#register">Register</a></li>
                 </ul>
               </nav><!-- .site-navigation -->
             </div>
@@ -72,16 +72,17 @@
                 <figure>
                     <img :src="'images/slt/'+speaker.image" alt="">
                 </figure><!-- .hero-image -->
+                <div class="entry-details d-flex flex-column justify-content-center">
+                  <div class="entry-header">
+                      <h2 class="entry-title">{{speaker.name}}</h2>
+                  </div><!--- .entry-header -->
 
-                <div class="entry-header">
-                    <h2 class="entry-title">{{speaker.name}}</h2>
-                </div><!--- .entry-header -->
+                  <div class="entry-footer">
+                      <div class="posted-date">{{speaker.desi}}</div>
 
-                <div class="entry-footer">
-                    <div class="posted-date">{{speaker.desi}}</div>
-
-                    <div class="posted-date pt-1">{{speaker.company}}</div>
-                </div><!-- .entry-footer" -->
+                      <div class="posted-date pt-1">{{speaker.company}}</div>
+                  </div><!-- .entry-footer" -->
+                </div>
               </div><!-- .swiper-slide -->
           
         </div>

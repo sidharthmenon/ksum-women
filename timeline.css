@@ -49,9 +49,16 @@
   margin-left: 20px;
 }
 .timeline h3 {
-  font-size: 18px;
+  /* font-size: 18px; */
+  font-size: 16px;
   font-weight: bold;
   margin: 0;
+  color: #1b1752;
+}
+.timeline h2{
+  font-size: 20px;
+  font-weight: bold;
+
 }
 .timeline h4 {
   margin: 0;
@@ -63,6 +70,14 @@
   width: 30px;
   height: 30px;
   border-radius: 50%;
+}
+.timeline hr{
+  clear: both;
+  border: none;
+  padding: 0;
+  margin: 0;
+  border-bottom: 3px solid rgba(0,0,0,.07);
+  margin-bottom: 10px;
 }
 
 /* .main-timeline{
