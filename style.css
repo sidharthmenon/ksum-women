@@ -2330,6 +2330,15 @@ ul.tabs-nav .tab-nav.active {
     filter: grayscale(0%); /* FF 35+ */
    }
 
+    .hero-slide{
+        background: url('images/slt/bg3.jpg') no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        height: 100vh;
+    }
+
+   
+
    .hero-content .entry-footer{
         display: flex;
         flex-direction: column;
@@ -2423,6 +2432,14 @@ ul.tabs-nav .tab-nav.active {
 
     
 
-
+    @media only screen and (max-width: 600px) {
+        .hero-slide {
+            background: url('images/slt/bg-mobile.jpg') no-repeat;
+            background-size: cover;
+        }
+        .bird{
+            right: 40px;
+        }
+    }
 
 
