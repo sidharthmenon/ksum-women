@@ -2448,17 +2448,6 @@ ul.tabs-nav .tab-nav.active {
         opacity: 1;
     }
     
-
-    @media only screen and (max-width: 600px) {
-        .hero-slide {
-            background: url('images/slt/bg-mobile.jpg') no-repeat;
-            background-size: cover;
-        }
-        .bird{
-            right: 40px;
-        }
-    }
-
     #register{
         height: 50vh;
         padding: 50px 100px;
@@ -2472,5 +2461,20 @@ ul.tabs-nav .tab-nav.active {
         font-weight: bold;
         line-height: 1;
         color: #232127;
+        text-align: center;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .hero-slide {
+            background: url('images/slt/bg-mobile.jpg') no-repeat;
+            background-size: cover;
+        }
+        .bird{
+            right: 40px;
+        }
+
+        #register h2{
+            font-size: 40px;
+        }
     }
 
