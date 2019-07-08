@@ -154,6 +154,14 @@
 
 <script type='text/javascript' src='js/jquery.js'></script>
 <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
+<script>
+    (function($) {
+      $( '.hamburger-menu' ).on( 'click', function() {
+          $(this).toggleClass('open');
+          $('.site-navigation').toggleClass('show');
+      });
+    });
+  </script>
 <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 <script src="js/vue_code.js"></script>
 
