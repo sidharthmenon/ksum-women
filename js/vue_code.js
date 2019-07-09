@@ -2,161 +2,161 @@ var app = new Vue({
   el: '#slidervue',
   data: {
     speakers: [
-      {
-        "image": "event-slider-24.png",
-        "sl": 1,
-        "name": "Sri. M Sivasankar IAS",
-        "desi": "Secretary IT",
-        "company": ""
-      },
-      {
-        "image": "event-slider-23.png",
-        "sl": 2,
-        "name": "Dr.Saji Gopinath",
-        "desi": "CEO",
-        "company": "KSUM"
-      },
-      {
-        "image": "event-slider-5.png",
-        "sl": 3,
-        "name": "Dr. Mridul Eapen",
-        "desi": "Member",
-        "company": "Kerala State Planning Board"
-      },
-      {
-        "image": "event-slider-6.png",
-        "sl": 4,
-        "name": "Sunita Sanghi",
-        "desi": "Senior Advisor",
-        "company": "Ministry of Skill Development & Entrepreneurship"
-      },
-      {
-        "image": "event-slider-15.png",
-        "sl": 5,
-        "name": "Dr. M. Beena IAS",
-        "desi": "Chairperson",
-        "company": "Cochin Port Trust"
-      },
-      {
-        "image": "event-slider-20.png",
-        "sl": 6,
-        "name": "Dr. Chitra IAS",
-        "desi": "Director",
-        "company": "IT Mission"
-      },
-      {
-        "image": "event-slider-22.png",
-        "sl": 7,
-        "name": "Smt. Sarada Muralidharan IAS",
-        "desi": "Director General",
-        "company": "NIFT"
-      },
-      {
-        "image": "event-slider-1.png",
-        "sl": 8,
-        "name": "Anjali Bansal",
-        "desi": "Founder",
-        "company": "Avaana Capital"
-      },
-      {
-        "image": "event-slider-3.png",
-        "sl": 9,
-        "name": "Padmaja Rupal",
-        "desi": "Co-Founder",
-        "company": "IAN"
-      },
-      {
-        "image": "event-slider-4.png",
-        "sl": 10,
-        "name": "Shanti Mohan",
-        "desi": "Founder",
-        "company": "Lets Venture"
-      },
-      {
-        "image": "event-slider-12.png",
-        "sl": 11,
-        "name": "Shalini Warrier",
-        "desi": "COO",
-        "company": "Federal bank"
-      },
-      {
-        "image": "event-slider-8.png",
-        "sl": 12,
-        "name": "Anupam Nidhi",
-        "desi": "Head Corporate citizneship an Sustainability",
-        "company": "Siemens"
-      },
-      {
-        "image": "event-slider-2.png",
-        "sl": 13,
-        "name": "Deepthi Dutt",
-        "desi": "Head of strategic initiatives Public sector",
-        "company": "Amazon"
-      },
-      {
-        "image": "event-slider-17.png",
-        "sl": 14,
-        "name": "Shelley Thakral",
-        "desi": "Head of Policy programme ( India, South Asia and Central Asia)",
-        "company": "Facebook"
-      },
-      {
-        "image": "event-slider-7.png",
-        "sl": 15,
-        "name": "Deena Jacob",
-        "desi": "CFO",
-        "company": "Open bank"
-      },
-      {
-        "image": "event-slider-18.png",
-        "sl": 16,
-        "name": "Sunita Singh",
-        "desi": "Executive Vice President",
-        "company": "Wadhwani Foundation"
-      },
-      {
-        "image": "event-slider-16.png",
-        "sl": 17,
-        "name": "Nivedha R M",
-        "desi": "Founder & CEO",
-        "company": "Trashcon"
-      },
-      {
-        "image": "event-slider-14.png",
-        "sl": 18,
-        "name": "Sheela Kochouseph",
-        "desi": "Founder",
-        "company": "V-star"
-      },
-      {
-        "image": "event-slider-21.png",
-        "sl": 19,
-        "name": "Ms. Shrayana Bhattacharya",
-        "desi": "Senior Economist",
-        "company": "World Bank"
-      },
-      {
-        "image": "event-slider-13.png",
-        "sl": 20,
-        "name": "Rashmi Bansal",
-        "desi": "Author, Motivational Speaker, Entrepreneur",
-        "company": ""
-      },
-      {
-        "image": "event-slider-25.png",
-        "sl": 21,
-        "name": "Ms. Jancy Jose",
-        "desi": "Managing Director & CEO",
-        "company": "Strava Technologies (P) Ltd"
-      },
-      {
-        "image": "event-slider-26.png",
-        "sl": 22,
-        "name": "Ms. Shilpa Elizabeth Abraham",
-        "desi": "Business Analyst",
-        "company": "WAN-IFRA"
-      }
-    ]
+  {
+    "image": "event-slider-22.png",
+    "sl": 1,
+    "name": "Smt. Sarada Muralidharan IAS",
+    "desi": "Director General",
+    "company": "NIFT"
+  },
+  {
+    "image": "event-slider-6.png",
+    "sl": 2,
+    "name": "Sunita Sanghi",
+    "desi": "Senior Advisor",
+    "company": "Ministry of Skill Development & Entrepreneurship"
+  },
+  {
+    "image": "event-slider-5.png",
+    "sl": 3,
+    "name": "Dr. Mridul Eapen",
+    "desi": "Member",
+    "company": "Kerala State Planning Board"
+  },
+  {
+    "image": "event-slider-15.png",
+    "sl": 4,
+    "name": "Dr. M. Beena IAS",
+    "desi": "Chairperson",
+    "company": "Cochin Port Trust"
+  },
+  {
+    "image": "event-slider-20.png",
+    "sl": 5,
+    "name": "Dr. Chitra IAS",
+    "desi": "Director",
+    "company": "IT Mission"
+  },
+  {
+    "image": "event-slider-1.png",
+    "sl": 6,
+    "name": "Anjali Bansal",
+    "desi": "Founder",
+    "company": "Avaana Capital"
+  },
+  {
+    "image": "event-slider-3.png",
+    "sl": 7,
+    "name": "Padmaja Rupal",
+    "desi": "Co-Founder",
+    "company": "IAN"
+  },
+  {
+    "image": "event-slider-4.png",
+    "sl": 8,
+    "name": "Shanti Mohan",
+    "desi": "Founder",
+    "company": "Lets Venture"
+  },
+  {
+    "image": "event-slider-12.png",
+    "sl": 9,
+    "name": "Shalini Warrier",
+    "desi": "COO",
+    "company": "Federal bank"
+  },
+  {
+    "image": "event-slider-7.png",
+    "sl": 10,
+    "name": "Deena Jacob",
+    "desi": "CFO",
+    "company": "Open bank"
+  },
+  {
+    "image": "event-slider-2.png",
+    "sl": 11,
+    "name": "Deepthi Dutt",
+    "desi": "Head of strategic initiatives Public sector",
+    "company": "Amazon"
+  },
+  {
+    "image": "event-slider-8.png",
+    "sl": 12,
+    "name": "Anupam Nidhi",
+    "desi": "Head Corporate citizneship an Sustainability",
+    "company": "Siemens"
+  },
+  {
+    "image": "event-slider-17.png",
+    "sl": 13,
+    "name": "Shelley Thakral",
+    "desi": "Head of Policy programme ( India, South Asia and Central Asia)",
+    "company": "Facebook"
+  },
+  {
+    "image": "event-slider-18.png",
+    "sl": 14,
+    "name": "Sunita Singh",
+    "desi": "Executive Vice President",
+    "company": "Wadhwani Foundation"
+  },
+  {
+    "image": "event-slider-21.png",
+    "sl": 15,
+    "name": "Ms. Shrayana Bhattacharya",
+    "desi": "Senior Economist",
+    "company": "World Bank"
+  },
+  {
+    "image": "event-slider-14.png",
+    "sl": 16,
+    "name": "Sheela Kochouseph",
+    "desi": "Founder",
+    "company": "V-star"
+  },
+  {
+    "image": "event-slider-13.png",
+    "sl": 17,
+    "name": "Rashmi Bansal",
+    "desi": "Author, Motivational Speaker, Entrepreneur",
+    "company": ""
+  },
+  {
+    "image": "event-slider-25.png",
+    "sl": 18,
+    "name": "Ms. Jancy Jose",
+    "desi": "Managing Director & CEO",
+    "company": "Strava Technologies (P) Ltd"
+  },
+  {
+    "image": "event-slider-16.png",
+    "sl": 19,
+    "name": "Nivedha R M",
+    "desi": "Founder & CEO",
+    "company": "Trashcon"
+  },
+  {
+    "image": "event-slider-26.png",
+    "sl": 20,
+    "name": "Ms. Shilpa Elizabeth Abraham",
+    "desi": "Business Analyst",
+    "company": "WAN-IFRA"
+  },
+  {
+    "image": "event-slider-24.png",
+    "sl": 21,
+    "name": "Sri. M Sivasankar IAS",
+    "desi": "Secretary IT",
+    "company": ""
+  },
+  {
+    "image": "event-slider-23.png",
+    "sl": 22,
+    "name": "Dr.Saji Gopinath",
+    "desi": "CEO",
+    "company": "KSUM"
+  }
+]
   }
 });
 

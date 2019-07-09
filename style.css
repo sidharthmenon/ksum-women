@@ -2464,6 +2464,12 @@ ul.tabs-nav .tab-nav.active {
         text-align: center;
     }
 
+    .col-sm-25{
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+
     @media only screen and (max-width: 600px) {
         .hero-slide {
             background: url('images/slt/bg-mobile.jpg') no-repeat;
