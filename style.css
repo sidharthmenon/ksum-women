@@ -291,7 +291,7 @@ a:hover, a:active {
     }
 
     .site-navigation ul li a {
-        color: #9d0744;
+        color: #fff;
     }
 }
 
@@ -305,7 +305,7 @@ a:hover, a:active {
 
 .site-header .buy-tickets .btn,
 .hero-slider .btn {
-    padding: 16px 46px;
+    padding: 10px 30px;
     border: 2px solid #fff;
 }
 
@@ -2254,7 +2254,7 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .sticky_header{
-    background: #340475;
+    background: #d61f4d;
     position: fixed;
     top:0;
 }
@@ -2331,7 +2331,7 @@ ul.tabs-nav .tab-nav.active {
    }
 
     .hero-slide{
-        background: url('images/slt/bg3.jpg') no-repeat;
+        background: url('images/slt/bg4.jpg') no-repeat;
         background-size: cover;
         min-height: 100vh;
         height: 100vh;
@@ -2472,8 +2472,9 @@ ul.tabs-nav .tab-nav.active {
 
     @media only screen and (max-width: 600px) {
         .hero-slide {
-            background: url('images/slt/bg-mobile.jpg') no-repeat;
+            /* background: url('images/slt/bg-mobile.jpg') no-repeat; */
             background-size: cover;
+            background-position: center;
         }
         .bird{
             right: 40px;
@@ -2481,6 +2482,10 @@ ul.tabs-nav .tab-nav.active {
 
         #register h2{
             font-size: 40px;
+        }
+
+        .reg-btn{
+            margin-top:150px;
         }
     }
 
