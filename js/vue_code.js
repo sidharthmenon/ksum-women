@@ -5,7 +5,7 @@ var app = new Vue({
   {
     "image": "event-slider-22.png",
     "sl": 1,
-    "name": "Smt. Sarada Muralidharan IAS",
+    "name": "Sarada Muraleedharan  IAS",
     "desi": "Director General",
     "company": "NIFT"
   },
@@ -33,7 +33,7 @@ var app = new Vue({
   {
     "image": "event-slider-20.png",
     "sl": 5,
-    "name": "Dr. Chitra IAS",
+    "name": "Dr. Chithra S IAS",
     "desi": "Director",
     "company": "IT Mission"
   },
@@ -47,7 +47,7 @@ var app = new Vue({
   {
     "image": "event-slider-3.png",
     "sl": 7,
-    "name": "Padmaja Rupal",
+    "name": "Padmaja Ruparel",
     "desi": "Co-Founder",
     "company": "IAN"
   },
@@ -69,13 +69,13 @@ var app = new Vue({
     "image": "event-slider-7.png",
     "sl": 10,
     "name": "Deena Jacob",
-    "desi": "CFO",
-    "company": "Open bank"
+    "desi": "Co-Founder & CFO",
+    "company": "Open Financial Technologies"
   },
   {
     "image": "event-slider-2.png",
     "sl": 11,
-    "name": "Deepthi Dutt",
+    "name": "Deepti Dutt",
     "desi": "Head of strategic initiatives Public sector",
     "company": "Amazon"
   },
@@ -103,7 +103,7 @@ var app = new Vue({
   {
     "image": "event-slider-21.png",
     "sl": 15,
-    "name": "Ms. Shrayana Bhattacharya",
+    "name": "Shrayana Bhattacharya",
     "desi": "Senior Economist",
     "company": "World Bank"
   },
