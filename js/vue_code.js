@@ -472,30 +472,33 @@ var app = new Vue({
     ],
     trackl: [
       {
-        "time": "10:15 am -11:15 am",
+        "time": "10:15 am -11:10 am",
+        "item": "Panel Discussion by Unity"
+      },
+      {
+        "time": "11:00 am -12:00 pm",
         "item": "Session by Facebook"
       },
       {
-        "time": "11:16 am -12:16 pm",
-        "item": "Session on Amazon"
+        "time": "12:01 apm -01:00 pm",
+        "item": "Session by Amazon"
       },
       {
-        "time": "12:16 pm -01:00 pm",
+        "time": "01:00 pm - 2.00pm",
         "item": "IDEA EXCHANGE & NETWORKING LUNCH"
       },
-      
     ],
     trackr:[
       {
-        "time": "11:16 am -12:16 pm",
-        "item": "Session on Unity"
-      },
-      {
         "time": "02:01pm- 3.00 pm",
-        "item": "Session on IBM"
+        "item": "Session by Ms. Malavika R Haritha (Brand Circle, Founder & CEO)"
       },
       {
-        "time": "03:01 pm -04:30 pm",
+        "time": "03:01pm- 3.30 pm",
+        "item": "Session by IBM"
+      },
+      {
+        "time": "03:31 pm -04:30 pm",
         "item": "Workshop - Fun with Fab"
       }
     ]
