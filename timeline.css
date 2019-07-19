@@ -66,10 +66,33 @@
   font-weight: 400;
   color: #808080;
 }
+.timeline .people{
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.timeline .people .people-item{
+  width: 20%;
+}
+.timeline .people h3{
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+.timeline .people h4{
+  font-size: 12px;
+  font-weight: normal;
+}
+.timeline .people .people-item .descp{
+  margin-top: -40px;
+}
+
 .timeline .people img {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
+  width: 100px;
+  height: auto;
+  /* border-radius: 50%; */
+  clip-path: circle(35.9% at 50% 33%);
+
+  padding: 0 10px;
 }
 .timeline hr{
   clear: both;

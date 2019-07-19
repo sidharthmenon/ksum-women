@@ -61,10 +61,10 @@
 
 									<ul>
 											<li><a data-scroll href="#home">Home</a></li>
-											<!-- <li><a data-scroll href="#about">About</a></li>
+											<li><a data-scroll href="#about">About</a></li>
 											<li><a data-scroll href="#speakers">Speakers</a></li>
-											<li><a data-scroll href="#agenda">Agenda</a></li> -->
-											<li><a data-scroll href="#register">Register</a></li>
+											<li><a data-scroll href="#agenda">Agenda</a></li>
+											<!-- <li><a data-scroll href="#register">Register</a></li> -->
 									</ul>
 								</nav><!-- .site-navigation -->
 							</div>
@@ -121,7 +121,8 @@
                                 </div> -->
 														</div><!-- .col -->
 														<div class="col-12 text-center reg-btn" >
-																<a target="_blank" class="btn gradient-bg" href="https://in.explara.com/e/womenstartupsummit">Register Now</a>															
+																<a target="_blank" class="btn gradient-bg" href="https://in.explara.com/e/womenstartupsummit">Register for Summit</a>															
+																<a target="_blank" class="btn gradient-bg" href="https://in.explara.com/e/womenstartupsummit">Register for Startup</a>															
 														</div>
                         </div><!-- .container -->
                     </div><!-- .hero-content -->
@@ -247,12 +248,22 @@
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="timeline">
-								<h4>Morning</h4>
+								<h4>Track 1</h4>
 
 							<div class="row flex-column pb-3 m-0" v-for="(item, index) in left">
 								<hr>
 								<div><h3>{{item.item}}</h3></div>
 								<div><h2>{{item.time}}</h2></div>
+								<div class="people" v-if="item.speakers">
+									<div class="people-item" v-for="sp in item.speakers"> 
+										<img :src="'images/slt/'+speakers[sp-1].image" alt="" />
+										<div class="descp">
+											<h3>{{speakers[sp-1].name}}</h3>
+											<h4>{{speakers[sp-1].desi}}</h4>
+											<h4>{{speakers[sp-1].company}}</h4>
+										</div>
+									</div>
+								</div>
 							</div>
 							<!-- <ul>
 								<li v-for="(item, index) in left">
@@ -283,11 +294,21 @@
 					</div>
 					<div class="col-sm-6">
 						<div class="timeline">
-							<h4>Afternoon</h4>
+							<h4>Track 2 - Shelovestech</h4>
 								<div class="row flex-column pb-3 m-0" v-for="(item, index) in right">
 									<hr>
 									<div><h3>{{item.item}}</h3></div>
 									<div><h2>{{item.time}}</h2></div>
+									<div class="people" v-if="item.speakers">
+											<div class="people-item" v-for="sp in item.speakers"> 
+												<img :src="'images/slt/'+speakers[sp-1].image" alt="" />
+												<div class="descp">
+													<h3>{{speakers[sp-1].name}}</h3>
+													<h4>{{speakers[sp-1].desi}}</h4>
+													<h4>{{speakers[sp-1].company}}</h4>
+												</div>
+											</div>
+										</div>
 								</div>
 							<!-- <ul>
 								
@@ -480,11 +501,15 @@
 <script type='text/javascript' src='js/circle-progress.min.js'></script>
 <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
 <script src="js/smooth-scroll.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
 <script src="js/vue_code.js"></script>
 
 <script type='text/javascript' src='js/custom.js'></script>
 <script data-cfasync="false" src="js/contact-form.js"></script>
+
+
 
 <script>
 	
