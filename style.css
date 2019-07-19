@@ -2473,7 +2473,7 @@ ul.tabs-nav .tab-nav.active {
 
     @media only screen and (max-width: 600px) {
         .hero-slide {
-            /* background: url('images/slt/bg-mobile.jpg') no-repeat; */
+            background: url('images/slt/bg-mobile.jpg') no-repeat;
             background-size: cover;
             background-position: center;
         }
@@ -2486,7 +2486,10 @@ ul.tabs-nav .tab-nav.active {
         }
 
         .reg-btn{
-            margin-top:150px;
+            margin-top:110px;
+        }
+        .reg-btn .gradient-bg{
+            margin: 5px;
         }
     }
 
