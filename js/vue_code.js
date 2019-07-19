@@ -430,6 +430,8 @@ var app = new Vue({
         "item": "PANEL DISCUSSION - Inclusivity in the Workplace",
         "speakers": [22,8,9,10,11,21]
       },
+    ],
+    right:[
       {
         "time": "12:16 pm - 1:15 pm",
         "item": "Startup Pitching"
@@ -466,8 +468,9 @@ var app = new Vue({
         "item": "Valedictory Address",
         "speakers": [2]
       }
+      
     ],
-    right:[
+    trackl: [
       {
         "time": "10:15 am -11:15 am",
         "item": "Session by Facebook"
@@ -480,6 +483,9 @@ var app = new Vue({
         "time": "12:16 pm -01:00 pm",
         "item": "IDEA EXCHANGE & NETWORKING LUNCH"
       },
+      
+    ],
+    trackr:[
       {
         "time": "11:16 am -12:16 pm",
         "item": "Session on Unity"
@@ -493,5 +499,6 @@ var app = new Vue({
         "item": "Workshop - Fun with Fab"
       }
     ]
+    
   }
 });
