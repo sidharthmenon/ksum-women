@@ -125,8 +125,8 @@ var app = new Vue({
         "image": "event-slider-7.png",
         "sl": 18,
         "name": "Deena Jacob",
-        "desi": "CFO",
-        "company": "Open bank"
+        "desi": "Co Founder & CFO",
+        "company": "Open Financial Technologies"
       },
       {
         "image": "event-slider-26.png",
@@ -329,8 +329,8 @@ var app = new Vue({
         "image": "event-slider-7.png",
         "sl": 18,
         "name": "Deena Jacob",
-        "desi": "CFO",
-        "company": "Open bank"
+        "desi": "Co Founder & CFO",
+        "company": "Open Financial Technologies"
       },
       {
         "image": "event-slider-26.png",
