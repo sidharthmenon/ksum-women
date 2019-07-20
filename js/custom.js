@@ -10,6 +10,9 @@
 
     // Hero Slider
     var mySwiper = new Swiper('.hero-slider', {
+        autoplay: {
+            delay: 5000,
+        },
         slidesPerView: 1,
         spaceBetween: 0,
         loop: true,

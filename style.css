@@ -2338,6 +2338,13 @@ ul.tabs-nav .tab-nav.active {
         height: 100vh;
     }
 
+    .hero-slide-two{
+        background: url('images/slt/bg5.jpg') no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        height: 100vh;
+    }
+
    
 
    .hero-content .entry-footer{
