@@ -394,6 +394,13 @@ var app = new Vue({
         "name": "Dr.Saji Gopinath",
         "desi": "CEO",
         "company": "KSUM"
+      },
+      {
+        "image": "event-slider-33.png",
+        "sl": 28,
+        "name": "Muthumani Somasundaran",
+        "desi": "Actress, Entrepreneur",
+        "company": ""
       }
     ],
     left: [
@@ -413,8 +420,8 @@ var app = new Vue({
       },
       {
         "time": "10:01 am -10:30 am",
-        "item": "Women to Inspire - Stories of Successful Entrepreneurs",
-        "speakers": [3]
+        "item": "FIRESIDE CHAT - Women to Inspire - Stories of Successful Entrepreneurs",
+        "speakers": [3, 28]
       },
       {
         "time": "10:31 am -11:15 am",
@@ -428,7 +435,7 @@ var app = new Vue({
       {
         "time": "11:31 am -12:15 pm",
         "item": "PANEL DISCUSSION - Inclusivity in the Workplace",
-        "speakers": [22,8,9,10,11,21]
+        "speakers": [22,8,9,10,13,21]
       },
     ],
     right:[
@@ -456,7 +463,7 @@ var app = new Vue({
       {
         "time": "04:01 pm - 04:45pm",
         "item": "PANEL DISCUSSION - Building an Inclusive Entrepreneurship Ecosystem",
-        "speakers": [13,14,17,12,16,15]
+        "speakers": [11,14,17,12,16,15]
       },
       {
         "time": "04:46 pm - 05:15 pm",
