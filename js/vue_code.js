@@ -17,6 +17,21 @@ var app = new Vue({
         "company": ""
       },
       {
+        "image": "event-slider-32.png",
+        "sl": 26,
+        "name": "Virginia Tan",
+        "desi": "Founding  Partner",
+        "company": "Teja Ventures"
+      },
+
+      {
+        "image": "event-slider-33.png",
+        "sl": 28,
+        "name": "Muthumani Somasundaran",
+        "desi": "Actress, Entrepreneur",
+        "company": ""
+      },
+      {
         "image": "event-slider-13.png",
         "sl": 3,
         "name": "Rashmi Bansal",
@@ -177,13 +192,7 @@ var app = new Vue({
         "desi": "Managing Director & CEO",
         "company": "Strava Technologies (P) Ltd"
       },
-      {
-        "image": "event-slider-32.png",
-        "sl": 26,
-        "name": "Virginia Tan",
-        "desi": "Founding  Partner",
-        "company": "Teja Ventures"
-      },
+      
       {
         "image": "event-slider-24.png",
         "sl": 27,

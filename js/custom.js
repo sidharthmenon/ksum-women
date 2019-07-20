@@ -11,7 +11,7 @@
     // Hero Slider
     var mySwiper = new Swiper('.hero-slider', {
         autoplay: {
-            delay: 5000,
+            delay: 2000,
         },
         slidesPerView: 1,
         spaceBetween: 0,
