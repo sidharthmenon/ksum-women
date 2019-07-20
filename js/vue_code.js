@@ -413,7 +413,7 @@ var app = new Vue({
       },
       {
         "time": "10:01 am -10:30 am",
-        "item": "FIRESIDE CHAT - Women to Inspire - Stories of Successful Entrepreneurs",
+        "item": "Women to Inspire - Stories of Successful Entrepreneurs",
         "speakers": [3]
       },
       {
