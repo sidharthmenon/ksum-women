@@ -167,7 +167,7 @@ var app = new Vue({
       {
         "image": "event-slider-30.png",
         "sl": 22,
-        "name": "Naandika Tripathia",
+        "name": "Naandika Tripathi",
         "desi": "Sub Editor",
         "company": "Forbes India"
       },
@@ -365,7 +365,7 @@ var app = new Vue({
       {
         "image": "event-slider-30.png",
         "sl": 22,
-        "name": "Naandika Tripathia",
+        "name": "Naandika Tripathi",
         "desi": "Sub Editor",
         "company": "Forbes India"
       },
