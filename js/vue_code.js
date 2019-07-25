@@ -20,7 +20,7 @@ var app = new Vue({
         "image": "event-slider-32.png",
         "sl": 26,
         "name": "Virginia Tan",
-        "desi": "Founding  Partner",
+        "desi": "Co-Founder",
         "company": "Teja Ventures"
       },
 
@@ -410,6 +410,13 @@ var app = new Vue({
         "name": "Muthumani Somasundaran",
         "desi": "Actress, Entrepreneur",
         "company": ""
+      },
+      {
+        "image": "event-slider-32.png",
+        "sl": 29,
+        "name": "Virginia Tan",
+        "desi": "Co-Founder",
+        "company": "Teja Ventures"
       }
     ],
     left: [
@@ -435,7 +442,7 @@ var app = new Vue({
       {
         "time": "10:31 am -11:15 am",
         "item": "PANEL DISCUSSION  - Women in Business",
-        "speakers": [20,4,5,6,7]
+        "speakers": [20,4,5,6,7,29]
       },
       {
         "time": "11:16 am -11:30 am",
