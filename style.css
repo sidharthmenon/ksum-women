@@ -2498,5 +2498,10 @@ ul.tabs-nav .tab-nav.active {
         .reg-btn .gradient-bg{
             margin: 5px;
         }
+        .col-sm-25{
+            -ms-flex: 0 0 40%;
+            flex: 0 0 40%;
+            max-width: 40%;
+        }
     }
 
