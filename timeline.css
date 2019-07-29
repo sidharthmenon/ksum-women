@@ -73,6 +73,7 @@
 }
 .timeline .people .people-item{
   width: 20%;
+  display: inline-grid;
 }
 .timeline .people h3{
   font-size: 14px;

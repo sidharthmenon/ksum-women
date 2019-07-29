@@ -417,6 +417,27 @@ var app = new Vue({
         "name": "Virginia Tan",
         "desi": "Co-Founder",
         "company": "Teja Ventures"
+      },
+      {
+        "image": "event-slider-34.png",
+        "sl": 30,
+        "name": "Poornima Seetharaman",
+        "desi": "Co-founder & CEO",
+        "company": "NammaLore Entertainment"
+      },
+      {
+        "image": "event-slider-35.png",
+        "sl": 31,
+        "name": "Laxmi Khanolkar",
+        "desi": "CEO & CO-founder",
+        "company": "Apargames"
+      },
+      {
+        "image": "event-slider-36.png",
+        "sl": 32,
+        "name": "Rajat Arora",
+        "desi": "Manager Policy programmes",
+        "company": "Facebook"
       }
     ],
     left: [
@@ -495,34 +516,43 @@ var app = new Vue({
     ],
     trackl: [
       {
-        "time": "10:15 am -11:10 am",
-        "item": "Panel Discussion by Unity"
+        "time": "10:15 AM – 10:30 AM",
+        "item": "Introductory Remark",
+        "speakers": [29]
       },
       {
-        "time": "11:00 am -12:00 pm",
-        "item": "Session by Facebook"
+        "time": "10:31 AM – 11:30 AM",
+        "item": "Women in Gaming: The Risk Takers",
+        "speakers": [30, 31]
       },
       {
-        "time": "12:01 apm -01:00 pm",
-        "item": "Session by Amazon"
+        "time": "11:31 AM – 11:45 AM",
+        "item": "Tea Break"
       },
       {
-        "time": "01:00 pm - 2.00pm",
-        "item": "IDEA EXCHANGE & NETWORKING LUNCH"
+        "time": "11:46 AM – 12 : 45 PM",
+        "item": "Facebook for Job and Livelihood",
+        "speakers": [32]
       },
     ],
     trackr:[
       {
-        "time": "02:01pm- 3.00 pm",
-        "item": "Session by Ms. Malavika R Haritha (Brand Circle, Founder & CEO)"
+        "time": "12:46 PM – 01:30 PM",
+        "item": "Be Seen. Be Heard Building a personal Brand",
+        "speakers": [20]
       },
       {
-        "time": "03:01pm- 3.30 pm",
-        "item": "Session by IBM"
+        "time": "01:31PM - 02:29PM",
+        "item": "Lunch Break"
       },
       {
-        "time": "03:31 pm -04:30 pm",
-        "item": "Workshop - Fun with Fab"
+        "time": "02:30 PM – 03:15 PM",
+        "item": "Building skills for the Cognitive Era",
+        "speakers": [21]
+      },
+      {
+        "time": "03: 16 PM – 04:30 PM",
+        "item": "Fun with Fab"
       }
     ]
     
