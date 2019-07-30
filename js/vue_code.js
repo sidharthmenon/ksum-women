@@ -442,73 +442,73 @@ var app = new Vue({
     ],
     left: [
       {
-        "time": "08:00 am -09:30 am",
-        "item": "Registration and Networking"
+        "time": "08.30-09.30 a.m",
+        "item": "Registration"
       },
       {
-        "time": "9.31 am - 09:40 am",
-        "item": "Welcome and Opening Remarks",
-        "speakers": [26,27]
+        "time": "09.31 a.m-10-10 a.m",
+        "item": "Inauguration and Opening of the Summit",
+        "speakers": [26,27,14,29]
       },
       {
-        "time": "09:41am -10:00 am",
-        "item": "Inauguration and Keynote Address",
-        "speakers": [1]
-      },
-      {
-        "time": "10:01 am -10:30 am",
+        "time": "10.11 a.m- 10.40a.m",
         "item": "FIRESIDE CHAT - Women to Inspire - Stories of Successful Entrepreneurs",
         "speakers": [3, 28]
       },
       {
-        "time": "10:31 am -11:15 am",
+        "time": "10.41 a.m -11.20 a.m",
         "item": "PANEL DISCUSSION  - Women in Business",
-        "speakers": [20,4,5,6,7,29]
+        "speakers": [20,5,7,29]
       },
       {
-        "time": "11:16 am -11:30 am",
+        "time": "11.20- 11.30 AM",
         "item": "Networking Break"        
       },
       {
-        "time": "11:31 am -12:15 pm",
+        "time": "11:31 – 12:10 PM",
         "item": "PANEL DISCUSSION - Inclusivity in the Workplace",
         "speakers": [22,8,9,10,13,21]
+      },
+      {
+        "time": "12:11 -12:30 PM",
+        "item": "Speech",
+        "speakers": [26]
       },
     ],
     right:[
       {
-        "time": "12:16 pm - 1:15 pm",
-        "item": "Startup Pitching"
+        "time": "12:31 -01:30 PM",
+        "item": "SHE LOVES TECH - Startup Pitching"
       },
       {
-        "time": "1:16 pm - 2.00 pm",
+        "time": "01:31 -02:10 PM",
         "item": "IDEA EXCHANGE & NETWORKING LUNCH"
       },
       {
-        "time": "2.01 pm - 3:00 pm",
-        "item": "Startup Pitching"
+        "time": "02:11 -03:00 PM",
+        "item": "SHE LOVES TECH - Startup Pitching"
       },
       {
-        "time": "03:01 pm - 03:45 pm",
+        "time": "03:01 -03:40 PM",
         "item": "PANEL DISCUSSION - The Women Building Tomorrow’s Business",
         "speakers": [19,23,18,24,25]
       },
       {
-        "time": "03:46 pm - 04:00 pm",
+        "time": "03:41- 03:50 PM",
         "item": "Networking Break"
       },
       {
-        "time": "04:01 pm - 04:45pm",
-        "item": "PANEL DISCUSSION - Building an Inclusive Entrepreneurship Ecosystem",
-        "speakers": [11,14,17,12,16,15]
+        "time": "03:51 – 04:30 PM",
+        "item": "PANEL DISCUSSION - Developing an Inclusive Entrepreneurship Ecosystem",
+        "speakers": [11,14,12,16]
       },
       {
-        "time": "04:46 pm - 05:15 pm",
+        "time": "04:31 - 04:40 PM",
         "item": "Honouring the Change Makers",
-        "speakers": [26]
+        "speakers": [16,2]
       },
       {
-        "time": "",
+        "time": "04.41PM -5.30PM",
         "item": "Valedictory Address",
         "speakers": [2]
       }
